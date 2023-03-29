@@ -11,5 +11,6 @@ git branch                    --> shows all branches
 
 git add --all
 git commit -m "branch_name"
-git push origin "branch_name"
+git push --set-upstream origin "branch_name"
+git push
 
